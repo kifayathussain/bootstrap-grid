@@ -1,0 +1,12 @@
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  background-color: silver;
+  height: 200px;
+  text-align: center;
+}
+.container-fluid .row .col div:nth-child(odd) {
+  background-color: teal;
+}
